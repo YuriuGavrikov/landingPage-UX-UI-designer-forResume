@@ -1,0 +1,25 @@
+.helloBlock{
+   min-height: 120px;
+   margin: 40px 0 40px 0;
+   display: flex;
+   justify-content: space-between;   
+   align-items: flex-end;
+}
+
+.helloBlock__name{
+   font-size: 47px;
+   line-height: 55px;
+   letter-spacing: -3px;
+}
+
+.helloBlock__language{
+   transform: rotate(-90deg) translate(24px, 28px);
+}
+
+.language__link{
+   color: #828282;
+}
+
+.language__active{
+   color: #070707;
+}

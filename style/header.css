@@ -6,9 +6,9 @@
    border-bottom: 1px solid black;
 }
 
-.navigation--link{
+.navigation__link{
    color: #828282;
 }
-.navigation--active{
+.navigation__active{
    color: #070707;
 }
