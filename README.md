@@ -1,1 +1,1 @@
-# https://yuriugavrikov.github.io/landing-page-UX-UI-designer-for-resume-/
+# https://yuriugavrikov.github.io/landingPage-UX-UI-designer-forResume/
