@@ -1,0 +1,28 @@
+.skills{
+   padding: 100px 0;
+}
+
+.skills__title{
+   text-align:center;
+}
+.skills__title-article{
+   margin-top: 70px;
+}
+
+.skills__app{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 80px;
+}
+.skills__app-card{
+   text-align:center;
+}
+.card-img{
+   margin: 0 auto;
+}
+.app-card__article{
+   margin-top: 25px;
+}
+.app-card__stars{
+   margin-top: 40px;
+}
