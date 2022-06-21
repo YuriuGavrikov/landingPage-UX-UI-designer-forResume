@@ -15,3 +15,10 @@ body{
    color: #FFFFFF;
    background: #070707;
 }
+
+.upDown{
+   position: fixed;
+   top: 80%;
+   left: 5%;
+   width: 70px;
+}

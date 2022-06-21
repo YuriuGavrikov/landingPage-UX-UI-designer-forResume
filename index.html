@@ -12,12 +12,12 @@
 <body>
    <header>
       <div class="container">
-         <nav class="navigation">
+         <nav class="navigation" id="navigation_anchor">
             <div class="navigation__item"><a href="#" class="navigation__link navigation__active">Home</a></div>
-            <div class="navigation__item"><a href="#" class="navigation__link">About me</a></div>
-            <div class="navigation__item"><a href="#" class="navigation__link">Skills</a></div>
-            <div class="navigation__item"><a href="#" class="navigation__link">Portfolio</a></div>
-            <div class="navigation__item"><a href="#" class="navigation__link">Contacts</a></div>
+            <div class="navigation__item"><a href="#about_anchor" class="navigation__link">About me</a></div>
+            <div class="navigation__item"><a href="#scills_anchor" class="navigation__link">Skills</a></div>
+            <div class="navigation__item"><a href="#portfolio_anchor" class="navigation__link">Portfolio</a></div>
+            <div class="navigation__item"><a href="#contacts_anchor" class="navigation__link">Contacts</a></div>
          </nav>
       </div>
    </header>
@@ -36,7 +36,7 @@
             <img src="./image/Hello/helloImg.png" alt="helloImg">
          </section>
       </div>
-      <section class="about">
+      <section class="about" id="about_anchor">
          <h2 class="about__title">About me</h2>
          <div class="about__article-container">
             <p class="article__item">
@@ -56,7 +56,7 @@
          </div>
       </section>
       <div class="container">
-         <section class="skills">
+         <section class="skills" id="scills_anchor">
             <div class="skills__title">
                <h2 class="skills__title-main">Skills</h2>
                <p class="skills__title-article">I work in such programs as</p>
@@ -93,7 +93,7 @@
             </div>
          </section>
       </div>
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio_anchor">
          <div class="container">
             <h2 class="portfolio__title">Portfolio</h2>
             <div class="portfolio__card">
@@ -122,7 +122,7 @@
             </div>
          </div>
       </section>
-      <section class=" contacts">
+      <section class="contacts" id="contacts_anchor">
          <h2 class="contacts__title">Contacts</h2>
          <p class="article__item">
             Want to know more or just chat?<br />
@@ -140,6 +140,10 @@
       </section>
       <section class="social__description">Like me on <br /> LinkedIn, Instagram, Behance, Dribble</section>
    </footer>
+   <div class="upDown">
+      <a href="#navigation_anchor"><img src="./image/UpBTN.png" alt=""></a>
+   </div>
+
    <script src="script.js"></script>
 </body>
 
