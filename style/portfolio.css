@@ -1,0 +1,17 @@
+.portfolio{
+   padding: 100px 0 100px 0;
+   background: #F6F6F6;
+   text-align:center;
+}
+
+.portfolio__card{
+   margin-top: 70px;
+}
+.portfolio__card_description{
+   margin-top: 50px;
+}
+
+.portfolio__card_link{
+   color: #070707;
+   text-decoration:underline;
+}

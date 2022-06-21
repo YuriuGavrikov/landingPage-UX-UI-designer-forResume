@@ -7,3 +7,11 @@
 body{
    font-family: 'Work Sans', sans-serif;
 }
+
+.btn{
+   width: 170px;
+   height: 40px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   background: #070707;
+}
