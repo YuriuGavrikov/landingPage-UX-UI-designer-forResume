@@ -22,3 +22,8 @@ body{
    left: 5%;
    width: 70px;
 }
+@media( max-width: 767px ){
+   .upDown{
+      display: none;
+   }
+}
