@@ -14,8 +14,22 @@
    justify-content: space-around;
    margin-top: 80px;
 }
+@media( max-width: 767px ){
+   .skills__app{
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+   }
+}
 .skills__app-card{
    text-align:center;
+   margin: 0 20px;
+}
+@media( max-width: 767px ){
+   .skills__app-card{
+      text-align:center;
+      margin-top: 30px;
+   }
 }
 .card-img{
    margin: 0 auto;
@@ -25,4 +39,12 @@
 }
 .app-card__stars{
    margin-top: 40px;
+}
+@media( max-width: 767px ){
+   .app-card__stars{
+      margin-top: 15px;
+   }
+   .app-card__stars-img{
+      margin: 0 auto;
+   }
 }

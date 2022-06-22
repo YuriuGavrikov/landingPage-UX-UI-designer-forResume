@@ -23,3 +23,30 @@
 .language__active{
    color: #070707;
 }
+
+.helloImg-big{
+   display: block;
+}
+.helloImg-small{
+   display: none;
+}
+@media( max-width: 767px ){
+   .helloImg-big{
+      display: none;
+   }
+   .helloImg-small{
+      display: block;
+      margin: 0 auto;
+      width: 95%;
+   }
+   .helloBlock__language{
+      display: none;
+   }
+   .helloBlock{
+      display: block;
+      margin: 50px 15px;
+   }
+   .helloBlock__shortInformation{
+      margin-top: 20px;
+   }
+}

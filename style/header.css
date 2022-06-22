@@ -12,3 +12,9 @@
 .navigation__active{
    color: #070707;
 }
+
+@media( max-width: 767px ){
+   .navigation{
+      display: none;
+   }
+}

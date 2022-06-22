@@ -8,9 +8,14 @@
    justify-content: space-between;
    text-align:center;
 }
+@media( max-width: 767px ){
+   .social{
+      padding: 0 50px;
+   }
+}
 
 .social__description{
    margin-top: 50px;
    text-align:center;
-   color: #828282
+   color: #828282;
 }
